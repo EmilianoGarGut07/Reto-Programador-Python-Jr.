@@ -1,0 +1,10 @@
+<odoo>
+    <template id="hello_template" name="Hello Template">
+        <t t-if="user">
+            <p>Hello <t t-esc="user.name"/></p>
+        </t>
+        <t t-else="">
+            <p>Hello World!</p>
+        </t>
+    </template>
+</odoo>
